@@ -1,0 +1,195 @@
+a, p { 
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+// .carousel-inner {
+//   min-height: 700 px;
+
+// }
+
+#project-description {
+  color: black;
+  font-size: 20px;
+}
+.carousel-indicators {
+  position: relative;
+}
+.carousel-indicators li {
+    background-color: #7b7b7b;        
+}
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.navbar {
+  background-color: white;
+  border-color: white;
+  padding-top: 5px;
+}
+
+.home-image {
+    background-image: url('newheader-bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-top: 70%; /* (img-height / img-width * container-width) */
+                /* (853 / 1280 * 100) */
+}
+
+.about {
+  content-align: center;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#about-image  img {
+  border-radius: 10px;
+
+}
+
+
+
+// img {
+//   border-radius: 20px;
+// }
+
+
+
+// li:hover {
+    
+//     border-bottom: 1px solid #000;
+//     padding-bottom: 1px
+// }
+
+// #landing-image {
+//   background: image-url('header-bg.jpg') no-repeat;
+//   max-width: 50%;
+//   max-height: 50%;
+
+
+//   transform: scale(0.5, 0.5);
+// -ms-transform: scale(0.5, 0.5);
+// -webkit-transform: scale(0.5, 0.5);
+// }
+
+// #headerwrap {
+//   background: image-url("header-bg.jpg") no-repeat center top;
+//   margin-top: -60px;
+//   padding-top:20px;
+//   text-align:center;
+//   background-attachment: relative;
+//   background-position: center center;
+//   min-height: 700px;
+//   width: 100%;
+
+
+  
+//     -webkit-background-size: 100%;
+//     -moz-background-size: 100%;
+//     -o-background-size: 100%;
+//     background-size: 100%;
+
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+// }
+
+// #headerwrap h1 {
+//   margin-top: 150px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   color: white;
+//   font-size: 100px;
+//   font-weight: 900;
+//   font-family: 'Lato', sans-serif;
+// }
+
+// #headerwrap h2 {
+//   font-family: 'Lato', sans-serif;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+// #headerwrap h3 {
+//   color: white;
+//   font-size: 30px;
+//   font-weight: 100;
+//     font-family: 'Lato', serif;
+//     // font-style: oblique;
+// }
+
+// li, a {
+//   font-family: 'Lato', sans-serif;
+//   color: white;
+//   font-weight: 100;
+//   font-size: 18px;
+// }
+// .navbar { margin-bottom: 0 }
+
+// h1, h2, h3 {
+//   font-family: 'Lato', sans-serif;
+//   color: black;
+//   font-weight: 100;
+//   margin-left: 20px;
+// }
+
+// #about-image {
+//   text-align: center;
+// }
+// #about-text {
+//   text-align: center;
+// }
+
+// img {
+//   border-radius: 2px;
+//   max-width: 80%;
+//   max-height: 50%;
+// }
+// p {
+//   color: black
+// }
+// .carousel-inner > .item > img,
+//   .carousel-inner > .item > a > img {
+//       margin: auto;
+//   }
+
+//   .carousel-caption {
+//     position: relative;
+//     left: auto;
+//     right: auto;
+// }
+
+// .carousel-indicators li {
+//   background-color: #669966;
+//   radius: 15px;
+// }
+// .carousel-indicators .active {
+//   background-color: #2c2d2f;
+// }
